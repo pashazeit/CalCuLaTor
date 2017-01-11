@@ -16,10 +16,6 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class CalcControl {
 
-   /* protected static final String A = "A";
-    protected static final String B = "B";*/
-
-
     @RequestMapping("plus")
     public ModelAndView getDetails(
             @RequestParam(value = "A") int param1,
@@ -31,7 +27,6 @@ public class CalcControl {
 
     @RequestMapping("minus")
     public ModelAndView subtract(
-
             @RequestParam(value = "A") int param1,
             @RequestParam(value = "B") int param2) {
         Integer result = param1 - param2;

@@ -1,4 +1,4 @@
 # CalCuLaTor
 
-Spring MVC</br>
+Spring MVC
 JS
